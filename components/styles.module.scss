@@ -1,0 +1,19 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+.Button{
+    padding: 2rem 5rem;
+    background: #ccc;
+    color: #FFF;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 2rem;
+    &.brown{
+        color: brown;
+        background-color: burlywood;
+    }
+    @include media-breakpoint-down(sm) {
+        background-color: bisque;
+    }
+}
